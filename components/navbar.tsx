@@ -54,7 +54,7 @@ export const Navbar = () => {
               <Button onPress={handleLogout} variant="ghost">
                 Logout
               </Button>
-              <User />
+              <User name="User" description="Default User" />
             </div>
           )}
         </NavbarItem>
